@@ -18,3 +18,4 @@ puts "Where would you like to go?"
   
 input_to_index(board_position)
 
+move(board, input_to_index(user_input), char)
