@@ -17,4 +17,3 @@ puts "Where would you like to go?"
   
 index = input_to_index(user_input) 
 
-move(board, index, "X")
