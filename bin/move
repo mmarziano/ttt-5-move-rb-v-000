@@ -13,6 +13,7 @@ display_board(board)
 puts "Where would you like to go?"
 
   user_input = gets.strip
+  converted_input = 
   board_position = user_input.to_i -= 1
   
 input_to_index(board_position)
